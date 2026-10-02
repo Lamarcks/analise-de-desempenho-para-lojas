@@ -1,58 +1,60 @@
 <div align="center">
 
-# 📊 Alura Store — Análise de Desempenho das Lojas
+# Análise de Desempenho para Lojas
 
-### Análise de Dados para Apoio à Tomada de Decisão
+### Análise de dados com Python para comparação de desempenho e apoio à tomada de decisão
 
-Projeto desenvolvido durante minha formação em **Data Science no programa Oracle Next Education (ONE) + Alura**, utilizando Python para analisar o desempenho de quatro lojas de um e-commerce e apoiar uma decisão estratégica baseada em dados.
+Projeto desenvolvido durante minha formação no **Oracle Next Education (ONE) + Alura**, utilizando Python para analisar e comparar o desempenho de quatro lojas do e-commerce Alura Store.
 
 <br>
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge\&logo=pandas\&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
-![Seaborn](https://img.shields.io/badge/Seaborn-Data%20Visualization-4C72B0?style=for-the-badge)
-![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge\&logo=googlecolab\&logoColor=white) 
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557A?style=for-the-badge)
+![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge)
+![Jupyter](https://img.shields.io/badge/Jupyter-FA0F00?style=for-the-badge\&logo=jupyter\&logoColor=white)
 
 </div>
 
 ---
 
-## 📌 Sobre o projeto
+## Sobre o projeto
 
-O projeto **Alura Store** apresenta um cenário de negócio no qual o proprietário de uma rede de quatro lojas precisa decidir **qual unidade deve ser vendida**.
+O projeto **Análise de Desempenho para Lojas** foi desenvolvido a partir do desafio **Alura Store**, no qual é necessário analisar os dados de quatro lojas para apoiar uma decisão de negócio.
 
-Para apoiar essa decisão, foi realizada uma análise comparativa dos dados de vendas das quatro lojas, considerando indicadores comerciais, avaliações dos clientes e custos operacionais.
+A análise utiliza dados de vendas para comparar diferentes indicadores de desempenho entre as unidades, buscando identificar diferenças relevantes e transformar os dados disponíveis em informações que possam auxiliar na tomada de decisão.
 
-O objetivo foi transformar dados brutos em **informações úteis para tomada de decisão**.
-
----
-
-## 🎯 Objetivo da análise
-
-Avaliar o desempenho das quatro lojas e identificar aquela com o resultado geral menos favorável.
-
-Foram analisados indicadores como:
-
-* 💰 Faturamento total por loja
-* 🛍️ Categorias de produtos mais vendidas
-* 📦 Produtos mais e menos vendidos
-* ⭐ Avaliação média dos clientes
-* 🚚 Custo médio de frete
-* 📊 Comparação do desempenho entre as unidades
+O projeto foi desenvolvido em um **notebook Python**, utilizando bibliotecas voltadas para manipulação, análise e visualização de dados.
 
 ---
 
-## 🔎 Etapas da análise
+## Objetivo
 
-O projeto foi desenvolvido em Python seguindo um fluxo de análise de dados:
+O objetivo da análise é comparar o desempenho das quatro lojas considerando diferentes aspectos do negócio.
+
+Foram analisados:
+
+* Faturamento total;
+* Categorias de produtos;
+* Produtos mais e menos vendidos;
+* Avaliações dos clientes;
+* Custo médio de frete;
+* Desempenho geral das lojas.
+
+A utilização de diferentes indicadores permite evitar uma análise baseada em apenas uma métrica e possibilita uma comparação mais ampla entre as unidades.
+
+---
+
+## Como funciona a análise
+
+O projeto segue um fluxo de análise de dados:
 
 ```text
 Importação dos dados
         ↓
 Exploração dos datasets
         ↓
-Tratamento e organização
+Organização dos dados
         ↓
 Cálculo dos indicadores
         ↓
@@ -60,65 +62,86 @@ Visualização dos resultados
         ↓
 Comparação entre as lojas
         ↓
-Recomendação de negócio
+Interpretação dos resultados
 ```
 
----
-
-## 📊 Visualização de Dados
-
-Para facilitar a interpretação dos resultados, foram desenvolvidas visualizações utilizando **Matplotlib e Seaborn**.
-
-Entre elas:
-
-* Gráficos de barras
-* Gráficos horizontais
-* Gráfico de pizza
-* Comparações de faturamento
-* Comparações entre categorias
-* Análise das avaliações dos clientes
-* Comparação dos custos médios de frete
-
-As visualizações permitiram identificar diferenças de desempenho entre as quatro unidades de forma mais clara.
+Os dados das quatro lojas são carregados a partir de arquivos CSV disponibilizados pelo desafio e analisados utilizando Python.
 
 ---
 
-## 💡 Resultado da análise
+## Indicadores analisados
 
-Após comparar os principais indicadores, a análise apontou a:
+### Faturamento
 
-### 🏪 Loja 4 como a unidade mais indicada para venda.
+O faturamento total de cada loja é utilizado para comparar o volume financeiro gerado pelas unidades.
 
-A recomendação considera principalmente:
+### Categorias de produtos
 
-* Menor faturamento total entre as unidades
-* Menor destaque comercial em produtos e categorias
-* Volume de vendas inferior às demais lojas
-* Avaliações positivas insuficientes para compensar o desempenho comercial mais baixo
-* Menor competitividade em relação às Lojas 1, 2 e 3
+A análise das categorias permite identificar quais segmentos possuem maior participação nas vendas de cada loja.
 
-As demais unidades apresentaram desempenho geral mais consistente, justificando sua manutenção.
+### Produtos vendidos
 
-> **Conclusão:** a análise demonstra como dados de vendas, experiência do cliente e custos podem ser combinados para apoiar uma decisão estratégica de negócio.
+São analisados os produtos com maior e menor volume de vendas, permitindo observar diferenças no desempenho do catálogo.
 
----
+### Avaliação dos clientes
 
-## 🛠️ Tecnologias utilizadas
+As avaliações são utilizadas como um indicador relacionado à experiência dos clientes com as compras realizadas.
 
-| Tecnologia       | Aplicação                                   |
-| ---------------- | ------------------------------------------- |
-| **Python**       | Desenvolvimento de toda a análise           |
-| **Pandas**       | Manipulação, exploração e análise dos dados |
-| **Matplotlib**   | Construção de gráficos e visualizações      |
-| **Seaborn**      | Visualização e comparação dos indicadores   |
-| **Google Colab** | Desenvolvimento e execução do notebook      |
+### Custo médio de frete
+
+O custo médio de frete permite comparar um dos componentes operacionais associados às vendas de cada unidade.
 
 ---
 
-## 📂 Estrutura do projeto
+## Visualização dos dados
+
+Para facilitar a interpretação dos resultados, foram utilizadas visualizações com **Matplotlib** e **Seaborn**.
+
+Entre os recursos utilizados estão:
+
+* Gráficos de barras;
+* Comparações entre lojas;
+* Distribuição de vendas por categoria;
+* Comparação de faturamento;
+* Análise das avaliações;
+* Comparação dos custos médios de frete.
+
+As visualizações ajudam a identificar diferenças entre as unidades e complementam a análise dos indicadores calculados.
+
+---
+
+## Resultado da análise
+
+A análise conjunta dos indicadores apontou a **Loja 4** como a unidade com desempenho geral inferior às demais no contexto do desafio.
+
+Entre os principais pontos observados estão:
+
+* Menor faturamento total;
+* Menor participação entre produtos e categorias de maior destaque;
+* Volume de vendas inferior às demais unidades;
+* Desempenho comercial menos consistente na comparação geral.
+
+A conclusão foi obtida a partir da análise conjunta dos indicadores, e não apenas de uma única métrica.
+
+---
+
+## Tecnologias utilizadas
+
+| Tecnologia           | Utilização                                   |
+| -------------------- | -------------------------------------------- |
+| **Python**           | Desenvolvimento da análise                   |
+| **Pandas**           | Manipulação e exploração dos dados           |
+| **Matplotlib**       | Criação de visualizações                     |
+| **Seaborn**          | Visualização e comparação dos dados          |
+| **Jupyter Notebook** | Organização e execução da análise            |
+| **Google Colab**     | Ambiente utilizado durante o desenvolvimento |
+
+---
+
+## Estrutura do projeto
 
 ```text
-Analise-das-Lojas/
+analise-de-desempenho-para-lojas/
 │
 ├── AluraStoreBrasil.ipynb
 └── README.md
@@ -126,78 +149,87 @@ Analise-das-Lojas/
 
 ### `AluraStoreBrasil.ipynb`
 
-Notebook contendo todo o processo de análise, desde a importação dos dados até a conclusão e recomendação final.
+Notebook contendo o processo completo da análise, incluindo:
+
+* Importação dos dados;
+* Exploração dos datasets;
+* Cálculo dos indicadores;
+* Visualizações;
+* Interpretação dos resultados;
+* Conclusão da análise.
 
 ---
 
-## 🚀 Como executar o projeto
+## Como executar
 
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/Lamarcks/Analise-das-Lojas.git
+git clone https://github.com/Lamarcks/analise-de-desempenho-para-lojas.git
 ```
 
 ### 2. Acesse a pasta
 
 ```bash
-cd Analise-das-Lojas
+cd analise-de-desempenho-para-lojas
 ```
 
 ### 3. Abra o notebook
 
-O arquivo:
+Abra o arquivo:
 
 ```text
 AluraStoreBrasil.ipynb
 ```
 
-pode ser executado utilizando:
+O notebook pode ser executado utilizando:
 
-* **Google Colab**
-* **Jupyter Notebook**
-* **Visual Studio Code com suporte a Jupyter**
+* **Google Colab**;
+* **Jupyter Notebook**;
+* **Visual Studio Code** com suporte a notebooks.
 
----
-
-## 📚 Conhecimentos desenvolvidos
-
-Durante o projeto foram aplicados conceitos importantes de Data Science:
-
-* Manipulação de dados com Python
-* Uso da biblioteca Pandas
-* Exploração de datasets
-* Análise de indicadores
-* Agregação e comparação de dados
-* Visualização com Matplotlib e Seaborn
-* Interpretação de resultados
-* Geração de insights
-* Tomada de decisão baseada em dados
+> Os dados utilizados na análise são carregados diretamente das fontes CSV utilizadas pelo desafio.
 
 ---
 
-## ✅ Status do projeto
+## Conceitos praticados
 
-**Concluído ✅**
+Durante o desenvolvimento foram aplicados conceitos relacionados à análise de dados, incluindo:
 
-Projeto desenvolvido como parte da formação em **Data Science — Oracle Next Education (ONE) + Alura**.
+* Leitura e exploração de datasets;
+* Manipulação de dados com Pandas;
+* Agrupamento e agregação de informações;
+* Cálculo de indicadores;
+* Comparação entre diferentes conjuntos de dados;
+* Criação de visualizações;
+* Interpretação de resultados;
+* Geração de insights a partir dos dados;
+* Apoio à tomada de decisão baseada em dados.
 
 ---
 
-## 👨‍💻 Autor
+## Aprendizados
+
+Este projeto contribuiu para o desenvolvimento da capacidade de trabalhar com dados desde sua exploração inicial até a interpretação dos resultados.
+
+Além da utilização das bibliotecas Python, o projeto permitiu praticar a transformação de dados em informações que podem ser utilizadas para responder a uma questão de negócio.
+
+---
+
+## Autor
 
 **Ihago Lamarcks**
 
-Estudante de **Análise e Desenvolvimento de Sistemas**, com foco em **Python, Dados, Inteligência Artificial e Cloud Computing**.
+Estudante de **Análise e Desenvolvimento de Sistemas**, com interesse em desenvolvimento de software, Python, análise de dados, Inteligência Artificial e Cloud Computing.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ihago%20Lamarcks-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/ihago-lamarcks1/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ihago%20Lamarcks-0A66C2?style=for-the-badge\&logo=linkedin)](https://www.linkedin.com/in/ihago-lamarcks1/)
 
 ---
 
 <div align="center">
 
-### 📊 Dados transformados em informações para decisões de negócio.
+**Dados analisados, resultados interpretados e decisões apoiadas por informação.**
 
-**Python • Data Science • Análise de Dados • Oracle Next Education**
+Python • Pandas • Data Science • Análise de Dados
 
 </div>
