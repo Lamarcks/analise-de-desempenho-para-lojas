@@ -220,8 +220,6 @@ Além da utilização das bibliotecas Python, o projeto permitiu praticar a tran
 
 **Ihago Lamarcks**
 
-Estudante de **Análise e Desenvolvimento de Sistemas**, com interesse em desenvolvimento de software, Python, análise de dados, Inteligência Artificial e Cloud Computing.
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ihago%20Lamarcks-0A66C2?style=for-the-badge\&logo=linkedin)](https://www.linkedin.com/in/ihago-lamarcks1/)
 
 ---
